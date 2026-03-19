@@ -34,6 +34,9 @@ If the user does not specify a time window, default to signals from the last 90 
 Start with the highest-signal technical and research-oriented sources, then cross-check with market-facing sources.
 
 Read [references/source-policy.md](./references/source-policy.md) before doing deep source collection.
+Read [references/source-registry-policy.md](./references/source-registry-policy.md) when the task uses curated creator or influencer source registries.
+
+When the request involves China-based creator, influencer, tool-curator, or practitioner signals, first consult the source index at [research-assistant/references/tech-blog-sources-index.md](/home/cuongpt/Workspaces/openclaw-agents-persona/research-assistant/references/tech-blog-sources-index.md), then load only the relevant source profiles and snapshots.
 
 ### 3. Rank opportunities
 
