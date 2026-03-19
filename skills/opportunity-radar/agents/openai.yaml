@@ -1,0 +1,7 @@
+interface:
+  display_name: "Opportunity Radar"
+  short_description: "Spot market and competitor signals for Vietnam"
+  default_prompt: "Use $opportunity-radar to turn recent AI, banking, finance, or fintech signals into a short Opportunity Radar for Vietnam."
+
+policy:
+  allow_implicit_invocation: true
