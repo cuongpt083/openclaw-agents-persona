@@ -61,12 +61,47 @@ topic_index:
     - li-hongyi
     - li-mu
     - ding-xiaohan
+  ai_engineering_and_agents:
+    - latent-space
+    - simon-willison
+    - eugene-yan
+  fintech_ai_and_banking:
+    - fintech-brain-food
+    - datafuntalk-huang-jia
+  llm_research_and_architecture:
+    - ahead-of-ai
+    - interconnects
 ```
 
 ## Source Directory
 
 ```yaml
 sources:
+  - id: latent-space
+    priority: P1
+    focus_topics: [AI Engineer, RAG, Agentic Workflows, LLM Ops]
+    profile_path: /home/cuongpt/.openclaw/workspace-researcher/references/sources/latent-space.md
+    snapshot_path: /home/cuongpt/.openclaw/workspace-researcher/references/source-snapshots/latent-space.md
+  - id: ahead-of-ai
+    priority: P1
+    focus_topics: [LLM Architecture, Fine-tuning, Research Papers]
+    profile_path: /home/cuongpt/.openclaw/workspace-researcher/references/sources/ahead-of-ai.md
+    snapshot_path: /home/cuongpt/.openclaw/workspace-researcher/references/source-snapshots/ahead-of-ai.md
+  - id: simon-willison
+    priority: P1
+    focus_topics: [Local LLMs, Personal AI, SQLite, Hacker tools]
+    profile_path: /home/cuongpt/.openclaw/workspace-researcher/references/sources/simon-willison.md
+    snapshot_path: /home/cuongpt/.openclaw/workspace-researcher/references/source-snapshots/simon-willison.md
+  - id: eugene-yan
+    priority: P1
+    focus_topics: [Applied ML, Search, Recommendation, Production LLMs]
+    profile_path: /home/cuongpt/.openclaw/workspace-researcher/references/sources/eugene-yan.md
+    snapshot_path: /home/cuongpt/.openclaw/workspace-researcher/references/source-snapshots/eugene-yan.md
+  - id: fintech-brain-food
+    priority: P1
+    focus_topics: [Fintech AI, Banking Infrastructure, Legacy Modernization, Payments]
+    profile_path: /home/cuongpt/.openclaw/workspace-researcher/references/sources/fintech-brain-food.md
+    snapshot_path: /home/cuongpt/.openclaw/workspace-researcher/references/source-snapshots/fintech-brain-food.md
   - id: wu-bin-jirui
     priority: P1
     focus_topics: [AI e-commerce, AIGC commercialization, retail workflows]
