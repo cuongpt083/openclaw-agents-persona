@@ -8,7 +8,14 @@ Mapping OpenClaw tools to Secretary Kim's tasks.
 
 ## 📂 Knowledge Access (Primary)
 - **`run_shell_command("cat ...")`**: Use to access the specialized knowledge base at `/home/cuongpt/Workspaces/sp-chatbot-healthcare/knowledge_base`.
+- **`run_shell_command("ls -R references/ > references/manifest.md")`**: (The Re-indexer) Use this to refresh the list of available files and domains for Secretary Kim.
 - **Retrieval Flow**: Always start with `manifest.md` -> `index.md` -> Target file.
+
+## ⚡ Knowledge Sync Tooling (The Slash Command)
+- **`refresh_knowledge_base`**: Executes a series of shell commands to:
+  1. Re-link any missing symlinks from the source knowledge base.
+  2. Regenerate `manifest.md` to identify new products/SOPs.
+  3. Scan the `caution` tags in new files to alert the Sếp.
 
 ## 📝 Document Creation
 - **`write_file`**: Use to draft formal Marketing Plans, Business Reports, or Content Schedules for the Sếp.

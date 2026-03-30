@@ -1,0 +1,27 @@
+# SMART POLE Upgrade Proposals for Secretary Kim
+*Last updated: March 30, 2026*
+
+Dưới đây là các đề xuất nâng cấp hệ thống để đạt độ sẵn sàng "Master Ready" (SP Score > 9.5/10):
+
+## 1. AGENTS.md (The Brain) - Hiện tại: 8.8/10
+- **Đề xuất**: Bổ sung mục "Success Metrics" (Chỉ số đo lường thành công). 
+- **Mục tiêu**: Giúp Kim tự đánh giá xem câu trả lời đã thực sự "Sắc bén, điềm tĩnh, định hướng cơ hội" chưa trước khi gửi Sếp.
+
+## 2. USER.md (The People) - Hiện tại: 8.5/10
+- **Đề xuất**: Thêm mục "Inner Fears & Desires" (Nỗi sợ: mất uy tín chuyên gia; Khao khát: tự động hóa vận hành mà vẫn giữ được cái "tâm" y đức).
+- **Mục tiêu**: Để Kim tư vấn không chỉ đúng kiến thức mà còn đúng "tâm lý" của Sếp.
+
+## 3. EXAMPLES.md (The Example) - Hiện tại: 8.0/10
+- **Đề xuất**: Chuyển đổi các ví dụ sang cấu trúc XML `<master_prompt>` hoặc thêm phần "Rationale" (Lý do chọn cách tiếp cận này).
+- **Mục tiêu**: Giúp các sub-agent khác khi phối hợp với Kim hiểu được "Logic ngầm" đằng sau các kịch bản.
+
+## 4. KNOWLEDGE-INGESTOR (The Skill) - Hiện tại: 9.2/10
+- **Đề xuất**: Tích hợp Metadata SP (A-M-A-R-T-P-O-L-E) vào mọi file được "tiêu hóa".
+- **Mục tiêu**: Đảm bảo mọi tri thức nạp vào đều đạt chuẩn cao nhất, không có thông tin rác.
+
+## 5. Danh sách File cần rà soát tiếp theo:
+- SOUL.md (Cập nhật các ranh giới tâm lý dựa trên Mental Models mới nạp).
+- HEARTBEAT.md (Thêm nhiệm vụ tự kiểm tra độ "Fresh" của tri thức theo định kỳ).
+
+---
+*Secretary Kim luôn sẵn sàng phục vụ Sếp ngay khi Sếp quay lại!* 👔💼🚀
